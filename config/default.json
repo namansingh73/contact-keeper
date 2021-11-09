@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://naman_singh:Rr5eMIb5uEKB8bfY@cluster0.huinw.mongodb.net/Cluster0?retryWrites=true&w=majority",
+  "jwtSecret": "secrettoken"
+}
