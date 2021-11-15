@@ -40,7 +40,6 @@ const ContactForm = () => {
         {
             contactContext.updateContact(contact);
         }
-        contactContext.addContact(contact);
         setContact({
             name:'',
             email:'',
