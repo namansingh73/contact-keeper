@@ -33,6 +33,7 @@ const ContactState = (props) => {
                 payload: res.data
             });
         }catch(err){
+            console.log(err);
             dispatch({
                 type: CONTACT_ERROR,
                 payload: err.response.msg

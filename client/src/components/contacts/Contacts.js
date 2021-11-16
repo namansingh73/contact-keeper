@@ -17,7 +17,6 @@ const Contacts = () => {
     {
         return <h4>Please add a contact</h4>
     }
-
     return (
         <Fragment>
             {contacts !== null && !loading ? (
